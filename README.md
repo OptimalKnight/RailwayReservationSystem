@@ -1,4 +1,4 @@
-HOW TO USE
+## HOW TO USE
     - Open up the terminal.
     - Navigate to the directory '/Railway Reservation System/java/src'.
     - Run the command 'javac DatabaseInit.java' followed by the 'java DatabaseInit' command to compile and run the database initialisation procedures.
@@ -10,7 +10,7 @@ HOW TO USE
     - Run the command 'javac Client.java' followed by the 'java Client' command to compile and run the client procedures for ticket booking.
 
 
-ASSUMPTIONS
+## ASSUMPTIONS
     - All the train, station, and passenger names are assumed to be of lenght less than or equal to thirty.
     - It is assumed that the user names does not contain intermediate blank spaces.
     - It is assumed that all trains ply on all days. Train routes are scheduled assuming 2022-12-01 is the first day, later days represent the offset of trains starting from the first day. All further days will follow the similar schedules.
